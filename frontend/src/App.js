@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import Authentication from './pages/Authentication';
+//import statementsss
+
 
 import Cart from './pages/customer/Cart';
 import Profile from './pages/customer/Profile';
