@@ -5,7 +5,7 @@ import cors from 'cors';
 import bcrypt from 'bcrypt';
 import {Admin, Cart, Orders, Product, User } from './Schema.js'
 //import statements
-
+// json
 const app = express();
 
 app.use(express.json());
