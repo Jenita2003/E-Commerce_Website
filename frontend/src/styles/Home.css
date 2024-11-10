@@ -1,0 +1,61 @@
+.HomePage {
+    margin-top: 20vh; /* Adjusted for more balanced spacing */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-banner img {
+    height: 55vh;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 3vh;
+}
+
+.home-categories-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vh;
+    margin-bottom: 12vh;
+}
+
+.home-category-card {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    transition: all 0.3s ease;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.home-category-card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border: 1px solid #3faffa;
+}
+
+.home-category-card img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.home-category-card h5 {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 0 0 1rem 1rem;
+    margin-top: -10px;
+}
+
+.home-category-card:hover h5 {
+    background-color: #3faffa;
+    color: #fff;
+}

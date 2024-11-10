@@ -1,0 +1,143 @@
+.new-product-page{
+    background-image: url('https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGVtcHR5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 4vh;
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.form-control{
+    background-color: rgb(193, 23, 23);
+    color: black;
+}
+.new-product-container{
+
+    background-color: #faf6f6;
+    padding: 3vh 2vw;
+    width: 54vw;
+    margin-left: 25vw;
+    border-radius: 0.6rem;
+    color: black;
+   
+}
+
+.new-product-container h3{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3vh;
+}
+
+.new-product-container button{
+
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.new-product-body{
+    height: 60vh;
+    overflow-y: scroll;
+    padding: 2vh 1.5vw;
+    margin-bottom: 2vh;
+    color: black;
+}
+
+.new-product-body span{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+   
+}
+.new-product-body span input{
+  background-color:rgb(158, 148, 148);
+  color: black;
+  
+}
+.new-product-body span .span-21 input{
+    width: 20vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+.new-product-body span .span-22 input{
+    width: 25vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+
+.new-product-body span .span-21 input{
+    width: 20vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+.new-product-body span .span-22 input{
+    width: 25vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+
+.new-product-body span .span-3 input{
+    width: 14.7vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+.new-product-body span .span-3 select{
+    width: 14.7vw;
+    background-color: rgb(158, 148, 148);
+    color: black;
+}
+
+.new-product-body span .span-26 input{
+    background-color:  rgb(158, 148, 148);
+    color: black;
+}
+.new-product-body input{
+    background-color: #30373f25;
+    border-color: #67646489;
+    color: rgb(0, 0, 0);
+}
+.new-product-body input:focus{
+    outline: none;
+    background-color: #30373f25;
+    border-color: #67646489;
+    color: rgb(0, 0, 0);
+}
+.new-product-body label{
+    color: rgba(2, 2, 2, 0.84);
+}
+
+.new-product-body span select{
+
+    background-color: #30373f25;
+    border-color: #67646489;
+    color: rgb(0, 0, 0);
+}
+.new-product-body span option{
+
+    color: rgb(6, 21, 33);
+}
+
+.new-product-body section{
+    margin: 3vh 0;
+
+}
+
+.new-product-body section h4{
+    color: rgb(0, 0, 0);
+
+}
+
+.new-product-body section span{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.new-product-body section span label{
+
+    color: rgba(0, 0, 0, 0.658);
+}

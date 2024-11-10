@@ -1,0 +1,63 @@
+/* Full-screen layout with flexible centering */
+.d-flex {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('http://wallpapercave.com/wp/92r6xWU.jpg');
+  }
+  
+  /* Main container with a rounded, shadowed card style */
+  .text-center {
+    padding: 50px;
+    max-width: 600px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  /* Elegant, gradient title text */
+  .display-4 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  /* Subheading with a slightly muted, elegant color */
+  .lead {
+    font-size: 1.2rem;
+    color: #6c757d;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+  
+  /* Stylish button with gradient background, smooth transition */
+  .btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    font-size: 1.1rem;
+    padding: 14px 36px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+  }
+  
+  /* Smooth transition effect for the button and container */
+  .text-center, .btn-primary {
+    transition: all 0.3s ease-in-out;
+  }
+  

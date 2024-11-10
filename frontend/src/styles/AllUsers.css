@@ -1,0 +1,50 @@
+.all-users-page{
+    background-image: url('https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGVtcHR5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    height: 100vh;
+    width: 100%;
+    padding: 15vh 3vw 3vh 3vw;
+}
+
+.all-users-page h3{
+
+    color: aliceblue;
+}
+
+.user-cards{
+    margin-top: 4vh;
+    height: 70vh;
+    width: 70vw;
+    padding: 2vh 1vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-card{
+
+    color: aliceblue;
+    display: flex;
+    gap: 40px;
+    background-color: #181818;
+    padding: 3vh 2vw;
+    width: 65vw;
+    border-radius: 0.8rem;
+}
+
+.user-card span{
+
+
+}
+
+.user-card span h5{
+
+    font-weight: 400;
+    color: rgb(231, 234, 238);
+}
+
+.user-card span p{
+    color: rgba(231, 234, 238, 0.831);
+    margin: 0;
+}
+
